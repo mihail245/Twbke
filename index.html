@@ -1,207 +1,89 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Этапы эволюции человека</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f5f6fa;
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .table-container {
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-      overflow: hidden;
-      max-width: 1000px;
-      width: 100%;
-    }
-    .table-header {
-      background-color: #2f3640;
-      color: #ffffff;
-      padding: 20px;
-      text-align: center;
-    }
-    .table-header h1 {
-      margin: 0;
-      font-size: 20px;
-      font-weight: 600;
-      letter-spacing: 0.5px;
-    }
-    .table-header p {
-      margin: 5px 0 0 0;
-      font-size: 13px;
-      color: #dcdde1;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      font-size: 13px;
-      line-height: 1.4;
-      color: #333333;
-    }
-    th {
-      background-color: #718093;
-      color: #ffffff;
-      padding: 12px;
-      text-align: left;
-      font-weight: 600;
-      font-size: 14px;
-      text-transform: uppercase;
-      font-size: 12px;
-      letter-spacing: 0.5px;
-    }
-    td {
-      padding: 12px;
-      vertical-align: top;
-      border-bottom: 1px solid #eeeff1;
-    }
-    tr:last-child td {
-      border-bottom: none;
-    }
-    tr:nth-child(even) {
-      background-color: #f8f9fa;
-    }
-    .col-name { width: 25%; border-right: 1px solid #eeeff1; }
-    .col-structure { width: 35%; border-right: 1px solid #eeeff1; }
-    .col-lifestyle { width: 40%; }
-    
-    strong.name { color: #2f3640; font-size: 14px; display: block; margin-bottom: 4px; }
-    span.period { color: #7f8c8d; font-style: italic; font-size: 12px; }
-    ul { margin: 0; padding-left: 16px; }
-    li { margin-bottom: 4px; }
-    li:last-child { margin-bottom: 0; }
-  </style>
+    <meta charset="UTF-8">
+    <title>Качественные реакции в органической химии</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #1a252f;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #dcdde1;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #f1f2f6;
+        }
+        strong {
+            color: #c0392b;
+        }
+    </style>
 </head>
 <body>
 
-<div class="table-container">
-  <div class="table-header">
-    <h1>Основные этапы эволюции человека</h1>
-    <p>Краткая таблица по материалам учебника</p>
-  </div>
-
-  <table>
-    <thead>
-      <tr>
-        <th class="col-name">Представитель, период</th>
-        <th class="col-structure">Особенности строения</th>
-        <th class="col-lifestyle">Особенности образа жизни</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="col-name">
-          <strong class="name">1. Австралопитек</strong>
-          <span class="period">5–3 млн лет назад</span>
-        </td>
-        <td class="col-structure">
-          <ul>
-            <li>Рост 120–160 см, масса 30–60 кг.</li>
-            <li>Объем мозга не превышал 550 см³.</li>
-            <li>Перешли к <strong>прямохождению</strong>.</li>
-          </ul>
-        </td>
-        <td class="col-lifestyle">
-          <ul>
-            <li>Жили в Южной Африке, наземный образ жизни.</li>
-            <li>Вели стадный образ жизни.</li>
-            <li>Занимались собирательством и охотой с камнями.</li>
-            <li>Основу рациона составляло мясо (животный белок).</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-name">
-          <strong class="name">2. Человек умелый</strong>
-          <span class="period">(Homo habilis)<br>~2,5–1,5 млн лет назад</span>
-        </td>
-        <td class="col-structure">
-          <ul>
-            <li>Более прогрессивное строение тела.</li>
-            <li>Объем мозга достигал 650 см³.</li>
-            <li>Появились зачатки примитивной речи.</li>
-          </ul>
-        </td>
-        <td class="col-lifestyle">
-          <ul>
-            <li>Расселились по Южной и Восточной Африке.</li>
-            <li>Умели делать простейшие орудия труда.</li>
-            <li>Впервые начали использовать огонь.</li>
-            <li>Сооружали примитивные жилища и стоянки.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-name">
-          <strong class="name">3. Древнейшие люди</strong>
-          <span class="period">(архантропы / Homo erectus)<br>1,8–0,1 млн лет назад</span>
-        </td>
-        <td class="col-structure">
-          <ul>
-            <li>Крупные челюсти, мощные затылочные и надбровные валики.</li>
-            <li>Низкий покатый лоб, без подбородочного выступа.</li>
-            <li>Объем мозга: 800–1100 см³.</li>
-          </ul>
-        </td>
-        <td class="col-lifestyle">
-          <ul>
-            <li>Успешно охотились на носорогов и оленей.</li>
-            <li>Делали каменные орудия, использовали огонь.</li>
-            <li>Строили шалаши и обживали пещеры.</li>
-            <li>Появилась <strong>членораздельная речь</strong>.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-name">
-          <strong class="name">4. Древние люди</strong>
-          <span class="period">(палеоантропы / неандертальцы)<br>250–35 тыс. лет назад</span>
-        </td>
-        <td class="col-structure">
-          <span style="font-weight:600; display:block; margin-bottom:4px;">Две линии развития:</span>
-          <ul>
-            <li><em>1-я:</em> рост 155–165 см, мощная мускулатура, толстый череп, крупные челюсти.</li>
-            <li><em>2-я:</em> физически уступали, но имели более развитый мозг.</li>
-          </ul>
-        </td>
-        <td class="col-lifestyle">
-          <ul>
-            <li>Расселились в Африке, Европе и Азии.</li>
-            <li>Выживали в условиях ледникового периода.</li>
-            <li>Вторая группа развивалась за счет коллективного труда, охоты, заботы и передачи опыта.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="col-name">
-          <strong class="name">5. Современные люди</strong>
-          <span class="period">(неоантропы / кроманьонцы)<br>Около 50–40 тыс. лет назад</span>
-        </td>
-        <td class="col-structure">
-          <ul>
-            <li>Внешне похожи на современного человека.</li>
-            <li>Владели развитой членораздельной речью.</li>
-          </ul>
-        </td>
-        <td class="col-lifestyle">
-          <ul>
-            <li>Полностью вытеснили неандертальцев.</li>
-            <li>Сложные орудия (кость, камень), добывали огонь.</li>
-            <li>Эффективная загонная охота и пещерное искусство.</li>
-            <li>Появились ритуалы захоронений и религия.</li>
-            <li>Перешли к пошиву одежды и сельскому хозяйству.</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <table>
+        <thead>
+            <tr>
+                <th>Класс веществ</th>
+                <th>Что нужно добавить (Реагент)</th>
+                <th>Что мы увидим (Внешний эффект)</th>
+                <th>Суть процесса / Пример</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Алкены</strong> и <strong>Алкины</strong> (кратные связи)</td>
+                <td>Бромная вода (Br<sub>2</sub>, бурый раствор)<br><strong>ИЛИ</strong> раствор марганцовки (KMnO<sub>4</sub>, фиолетовый)</td>
+                <td><strong>Обесцвечивание</strong> бурого раствора<br><strong>Обесцвечивание</strong> фиолетового раствора (и выпадение бурого осадка MnO<sub>2</sub>)</td>
+                <td>Бром или марганцовка «атакуют» двойную или тройную связь и присоединяются по ней.</td>
+            </tr>
+            <tr>
+                <td><strong>Многоатомные спирты</strong> (глицерин, этиленгликоль)</td>
+                <td>Свежеприготовленный гидроксид меди(II) — Cu(OH)<sub>2</sub> (голубой осадок)</td>
+                <td>Осадок растворяется, образуется <strong>ярко-синий (васильковый) раствор</strong></td>
+                <td>Образуется комплексное соединение (глицерат меди). Реакция идет на холоду.</td>
+            </tr>
+            <tr>
+                <td><strong>Фенол</strong></td>
+                <td>Раствор хлорида железа(III) — FeCl<sub>3</sub><br><br><strong>ИЛИ</strong> Бромная вода</td>
+                <td>Раствор окрашивается в <strong>интенсивный фиолетовый цвет</strong><br><br>Выпадает <strong>белый осадок</strong> (трибромфенол)</td>
+                <td>Образование комплексного фенолята железа.<br>Бромирование бензольного кольца.</td>
+            </tr>
+            <tr>
+                <td><strong>Альдегиды</strong></td>
+                <td>Аммиачный раствор оксида серебра [Ag(NH<sub>3</sub>)<sub>2</sub>]OH (при нагревании)<br><br><strong>ИЛИ</strong> Свежий Cu(OH)<sub>2</sub> (при нагревании)</td>
+                <td>На стенках пробирки появляется налет чистого серебра — <strong>«серебряное зеркало»</strong><br><br>Голубой осадок при нагревании меняет цвет: сначала в <strong>желтый</strong>, затем в <strong>кирпично-красный</strong> (Cu<sub>2</sub>O)</td>
+                <td>Альдегидная группа окисляется до карбоновой кислоты, восстанавливая металлы.</td>
+            </tr>
+            <tr>
+                <td><strong>Карбоновые кислоты</strong></td>
+                <td>Лакмус (индикатор)<br><br><strong>ИЛИ</strong> Пищевая сода (NaHCO<sub>3</sub>) или карбонаты</td>
+                <td>Лакмус становится <strong>красным</strong><br><br>Бурное <strong>выделение газа</strong> без запаха (CO<sub>2</sub>)</td>
+                <td>Кислоты диссоциируют с образованием ионов H<sup>+</sup>. Вытесняют более слабую угольную кислоту.</td>
+            </tr>
+            <tr>
+                <td><strong>Крахмал</strong></td>
+                <td>Раствор йода (спиртовой или Люголя, бурый)</td>
+                <td>Появление <strong>интенсивного синего (темно-синего) окрашивания</strong></td>
+                <td>Йод внедряется в спираль амилозы (компонента крахмала). При нагревании синий цвет исчезает, при охлаждении — возвращается.</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
